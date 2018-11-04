@@ -1,0 +1,41 @@
+.fa{
+	font-size: 30px;
+}
+
+.navbar{
+	padding: 0;
+}
+
+.navbar-nav1{
+	display: flex;
+}
+
+.navbar-nav1 i{
+	padding: 0px 0px 0px 30px;
+    cursor: pointer;
+}
+
+.navbar-brand{
+	font-size: 40px;
+}
+
+.cont_menu{
+	background: #E9E9F3;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+.alerta_carro{
+    background: red;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 19px;
+    padding: 2px 8px;
+    margin-left: -9px;
+    position: absolute;
+    display: none;	
+}
+
+

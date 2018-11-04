@@ -1,0 +1,12 @@
+<div class="contenedor">
+	<form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+		<h3>Iniciar Sesión</h3>
+		<label for="">Correo Electrónico</label><br>
+		<input class="form-control" type="email" name="correo" id="correo" ngModel><br><br>
+
+		<label for="">Contraseña</label><br>
+		<input class="form-control" type="password" name="pass" id="pass" ngModel><br><br>		
+
+		<button class="btn btn-success btn-form" type="submit">Ingresar</button>	
+	</form>
+</div>
